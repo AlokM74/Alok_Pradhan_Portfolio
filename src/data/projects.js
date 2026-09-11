@@ -13,7 +13,8 @@ export const projects = [
   {
   id: "harmony-of-hearts",
   name: "Harmony of Hearts",
-  description: "A brief one- or two-line description of what the site does.",
+  description:
+  "A visually engaging music platform where users can discover and explore songs through an immersive interface, intuitive navigation, and a smooth listening experience.",
   image: "https://images.unsplash.com/photo-1788847024589-a7f8218305b6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
   liveUrl: "https://harmony-of-hearts.vercel.app",
   githubUrl: "https://github.com/AlokM74/Harmony-Of-Hearts",
@@ -41,7 +42,6 @@ export const projects = [
     "JWT",
     "REST API",
     "JavaScript",
-    "Vite"
   ]
 },
 ]
