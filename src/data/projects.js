@@ -20,14 +20,28 @@ export const projects = [
   technologies: ["HTML", "CSS","Java Script"],
   },
   {
-    id: 'ecommerce',
-    name: 'E-Commerce Application',
-    description:
-      'A responsive online store with product catalog, cart, secure checkout, and role-based admin access.',
-    technologies: ['React', 'Node JS', 'MongoDB', 'JWT'],
-    githubUrl: 'https://github.com/yourusername/ecommerce-app',
-    liveUrl: 'https://ecommerce-demo.example.com',
-    image:
-      'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=60',
-  },
+  id: "classroom-automation",
+  name: "Classroom Automation",
+  description:
+    "A smart classroom automation system that allows users to monitor and control classroom devices through an interactive web dashboard.",
+
+  image:
+    "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1374&auto=format&fit=crop",
+
+  liveUrl: "https://class-room-automation.vercel.app/dashboard",
+
+  githubUrl:
+    "https://github.com/AlokM74/Classroom_Automation",
+
+  technologies: [
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "JWT",
+    "REST API",
+    "JavaScript",
+    "Vite"
+  ]
+},
 ]
