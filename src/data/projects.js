@@ -28,7 +28,7 @@ export const projects = [
   image:
     "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1374&auto=format&fit=crop",
 
-  liveUrl: "https://class-room-automation.vercel.app/dashboard",
+  liveUrl: "https://class-room-automation.vercel.app",
 
   githubUrl:
     "https://github.com/AlokM74/Classroom_Automation",
