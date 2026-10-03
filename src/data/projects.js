@@ -1,15 +1,31 @@
 export const projects = [
   {
-    id: 'swadexpress',
-    name: 'SwadExpress — Food Delivery Application',
-    description:
-      'A full-stack food delivery platform with live order tracking, restaurant onboarding, and secure online payments.',
-    technologies: ['React', 'Java', 'Spring Boot', 'My SQL', 'JWT', 'Razorpay'],
-    githubUrl: 'https://github.com/yourusername/swadexpress',
-    liveUrl: 'https://swadexpress.example.com',
-    image:
-      'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=60',
-  },
+  id: "swadexpress",
+  name: "SwadExpress",
+  description:
+    "A full-stack food delivery application that allows customers to explore restaurants, search and filter food items, manage carts, place orders, make online payments, and track order status through an interactive web dashboard.",
+
+  image:"https://imglink.cc/cdn/gu_BQFBvPQ.png",
+  liveUrl: "https://swadexpress-in.vercel.app",
+
+  githubUrl:
+    "https://github.com/AlokM74/SwadExpress",
+
+  technologies: [
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "React.js",
+    "MySQL",
+    "JPA/Hibernate",
+    "JWT",
+    "Spring Mail",
+    "Razorpay",
+    "REST API",
+    "JavaScript",
+    "Material UI",
+  ]
+},
   {
   id: "harmony-of-hearts",
   name: "Harmony of Hearts",
