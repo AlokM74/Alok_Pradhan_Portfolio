@@ -9,6 +9,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import DownloadIcon from "@mui/icons-material/FileDownload";
 import ThreeHero from "./ThreeHero.jsx";
+import resume from "../assets/Alok_Pradhan_Resume.pdf";
 
 const NAME_COLORS = ["#A9662B", "#3B5170", "#3FA96A", "#D9A02B"];
 
@@ -165,7 +166,7 @@ export default function Hero() {
                 variant="outlined"
                 size="large"
                 startIcon={<DownloadIcon />}
-                href="/assets/Alok_Pradhan_Resume.pdf"
+                href={resume}
                 download="Alok_Pradhan_Resume.pdf"
                 sx={{
                   borderColor: "rgba(246,247,249,0.4)",
